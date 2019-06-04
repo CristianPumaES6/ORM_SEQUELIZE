@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/CristianPumaES6/ORM_SEQUELIZE/issues"
   },
-  "homepage": "https://github.com/CristianPumaES6/ORM_SEQUELIZE#readme"
+  "homepage": "https://github.com/CristianPumaES6/ORM_SEQUELIZE#readme",
+  "dependencies": {
+    "sequelize": "^5.8.7",
+    "sqlite3": "^4.0.8"
+  }
 }
