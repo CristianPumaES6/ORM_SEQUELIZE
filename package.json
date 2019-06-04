@@ -1,0 +1,19 @@
+{
+  "name": "orm_sequelize",
+  "version": "1.0.0",
+  "description": "Repasando Sequelize.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristianPumaES6/ORM_SEQUELIZE.git"
+  },
+  "author": "CristianPumaES6",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CristianPumaES6/ORM_SEQUELIZE/issues"
+  },
+  "homepage": "https://github.com/CristianPumaES6/ORM_SEQUELIZE#readme"
+}
