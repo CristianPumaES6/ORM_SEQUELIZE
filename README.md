@@ -39,3 +39,14 @@ sequelize
   .catch(err => {
     console.error('Unable to connect to the database:', err);
   });
+
+
+
+
+// crear un modelo e table
+const Model = Sequelize.Model;
+
+class User extends Model { }
+
+  Alternatively, using sequelize.define:
+  Internally, sequelize.define calls Model.init.
