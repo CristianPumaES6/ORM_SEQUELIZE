@@ -1,2 +1,3 @@
 node?modules/*
 package-lock.json
+path/to/database.sqlite

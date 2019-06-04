@@ -28,3 +28,14 @@ const sequelize = new Sequelize(/* ... */, {
 });
 
 
+Testing the connection
+You can use the .authenticate() function to test if the connection is OK:
+
+sequelize
+  .authenticate()
+  .then(() => {
+    console.log('Connection has been established successfully.');
+  })
+  .catch(err => {
+    console.error('Unable to connect to the database:', err);
+  });
