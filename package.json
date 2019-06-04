@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/CristianPumaES6/ORM_SEQUELIZE#readme",
   "dependencies": {
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
     "sequelize": "^5.8.7",
     "sqlite3": "^4.0.8"
   }
